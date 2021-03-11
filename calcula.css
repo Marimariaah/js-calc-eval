@@ -3,18 +3,21 @@
 	margin: 0;
 	outline: 0;
 	font-weight: 900;
-	font-size: 1.5rem;
+	font-size: 1rem;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
 }
 
 main {
-	width: 350px;
-	height: 700px;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-
-	margin: 2rem 4rem;
 }
 
 #display {
@@ -32,29 +35,29 @@ p {
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	padding: 15px;
-	font-size: 3rem;
+	padding: 1.5rem;
+	font-size: 4rem;
 }
 
 #section-btn {
+	flex: 1;
+	height: 70%;
+	padding: 1rem 0;
+
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 
-	padding: 10px 0;
-	flex: 1;
 	background-color: rgb(2, 1, 3);
-	width: 100%;
-	height: 70%;
 }
 
 #section-btn input {
-	width: 75px;
-	height: 75px;
+	width: 5rem;
+	height: 5rem;
 	background-color: rgb(61, 61, 61);
 
-	margin: 0 5px;
+	margin: 0 0.3rem;
 	border-radius: 50%;
 	border: none;
 }
